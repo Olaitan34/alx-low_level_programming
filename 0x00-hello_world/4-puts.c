@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 /**
- * int main
+ * main - Point to enter
  *
- * return
- */
+ * Description: This is a C program that prints with put
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
