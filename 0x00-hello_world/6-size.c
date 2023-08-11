@@ -2,9 +2,7 @@
 
 /**
  * main- Entry point
- *
  * Descriotion: This is the C program that printbthe size of various type of computer
- *
  * Return: Always 0 (Success)
  */
 
