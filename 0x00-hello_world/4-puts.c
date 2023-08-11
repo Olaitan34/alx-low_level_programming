@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * c program to print
- *
- * then return to zero
+ * c program practic
  */
 int main(void)
 {
