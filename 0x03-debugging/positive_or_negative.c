@@ -1,6 +1,10 @@
 #include "main.h"
 
+/* Declaration */
+ 
+
 void positive_or_negative(int i)
+/* conditional statement */
 
 {
 	if (i > 0)
