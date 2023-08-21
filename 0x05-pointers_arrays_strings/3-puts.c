@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * _Puts: To print strings.
- *
- * @n: number of characters in string.
- *
- * Return: string
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: 0.
  */
-
 void _puts(char *str)
 {
 /* initializing parameter n */
