@@ -10,6 +10,7 @@
 
 void _puts(char *str)
 {
+/* initializing parameter n */
 	int n = 0;
 
 	while (str[n])
