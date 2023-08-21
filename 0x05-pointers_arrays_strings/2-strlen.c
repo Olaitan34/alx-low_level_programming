@@ -5,7 +5,6 @@
  * s: input stringeturn.
  * Return: string length.
  */
-
 int _strlen(char *s)
 {
 	int length = 0;
