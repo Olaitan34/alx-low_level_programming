@@ -2,8 +2,8 @@
 
 /**
  * Swaps the values of two integers.
- * @param first_number The first integer.
- * @param second_number The second integer.
+ * first_number The first integer.
+ * second_number The second integer.
  */	
 int temp;
 	temp = *a;
