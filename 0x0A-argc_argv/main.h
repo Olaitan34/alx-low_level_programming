@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "main.h"
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
-int atoi(char *s);
+int _atoi(char *s);
 #endif
