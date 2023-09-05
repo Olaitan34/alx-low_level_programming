@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * my_free_grid - Free the memory allocated for a grid.
+ * free_grid - Free the memory allocated for a grid.
  * @grid: Grid to free.
  * @height: Height of the grid.
  */
