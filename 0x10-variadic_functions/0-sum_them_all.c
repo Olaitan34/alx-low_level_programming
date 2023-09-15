@@ -8,20 +8,19 @@
  *
  * Return: The sum of the integers, or 0 if no integers are provided.
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
-        int result = 0;
-	unsigned int i = 0;
+	unsigned int i;
+	int sum = 0;
+	va_list list;
 
-        va_list arg;
-        va_start(arg, n);
+	va_start(list, n);
 
-        for (i = 0; i < n; i++)
-        {
-                result += va_arg(arg, int);
-        }
-        va_end(arg);
+	for (i = 0; i < n; i++)
+		sum += va_arg(list, int);
 
-        return (result);;/* Return result if n > 0, otherwise return 0 */
+	va_end(list);
+
+	return (sum);
 }
-
