@@ -1,1 +1,1 @@
-my list list pertect linked list.
+Linked list tasks
