@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * free_listint2 - function to free the elements in listint_t
+ * free_listint2 - function to free list
  *
  * @head: A pointer to the head of the list
  */
@@ -18,6 +18,7 @@ void free_listint2(listint_t **head)
 		*head = (*head)->next;
                 free(ptr);
         }
+
         *head = NULL;
 }
 
