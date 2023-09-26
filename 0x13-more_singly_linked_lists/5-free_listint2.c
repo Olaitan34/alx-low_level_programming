@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>  // Include stdlib.h for malloc and free
 #include "lists.h"
 
 /**
