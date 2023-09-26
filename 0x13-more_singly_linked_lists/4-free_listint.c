@@ -1,6 +1,10 @@
-#include <stdio.h>
 #include "lists.h"
 
+/**
+ * free_listint - frees a linked list
+ * @head: pointer to data
+ * Returns: Void
+ */
 void free_listint(listint_t *head)
 {
 	listint_t *ptr;
