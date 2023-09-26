@@ -2,29 +2,23 @@
 #include "lists.h"
 
 /**
- * print_lsistnt - print the content of a linked list
- * @n: integer
- * @next: points to the next node
+ * print_listint - print the content of a linked list
  * @h: pointing to list
- * Description: singly linked list node structure
- * Return: Return size of lis
+ * Return: Return number of linked list printed
  */
 
 size_t print_listint(const listint_t *h)
 {
-	size_t len;
+	size_t cntr = 0;
 
-	len = 0;
-	if (h==NULL)
-	{
-		printf("memory is not available");
-		exit(1);
-	}
-	else
+	if (h == NULL)
+		return (cntr);
+	while (h != NULL)
 	{
 		printf("%d\n", h->n);
-		len++;
+		cntr++;
 		h = h->next;
 	}
-	return (len);
+
+	return (cntr);
 }
