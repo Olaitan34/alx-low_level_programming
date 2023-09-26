@@ -7,9 +7,12 @@
  */
 int sum_listint(listint_t *head)
 {
-	int sum = 0;
-	listint_t *ptr = head;
+	int sum;
+	listint_t *ptr;
 	
+	sum = 0;
+	ptr = head;
+
 	while (ptr == NULL)
 		return (sum);
 	if (ptr != NULL)
