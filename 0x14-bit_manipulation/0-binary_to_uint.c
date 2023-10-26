@@ -2,7 +2,9 @@
 /**
  * binary_to_unit - Function to convert to binary
  * @b: Pointer to the string
- * Return: return 'rtn'
+ * Return: return 'rtn
+ *
+ * '
  */
 
 unsigned int binary_to_uint(const char *b)
