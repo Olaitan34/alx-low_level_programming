@@ -1,25 +1,13 @@
 #include "main.h"
-#include <stdio.h>
-
-unsigned int binary_to_uint(const char *b)
+/**
+ *  * print_binary - prints binary to screen
+ *   * @n: int value
+ *    * Return: void
+ *     */
+void print_binary(unsigned long int n)
 {
-	unsigned long int bitmask;
-
-	if(index >= sizeof(unsigned long int) * 8)
-	{
-		return -1;
-	}
-	bitmask == 1ul << index;
-
-	if ((n & bitmask) == bitmask)
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
-
-
-
+	if (n > 1)
+		print_binary(n >> 1);
+	_putchar((n & 1) + '0');
 }
+
